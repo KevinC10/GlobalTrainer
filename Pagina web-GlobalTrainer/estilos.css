@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:sans-serif;
+    font-size: 16px;
+}
+
+header {
+    width: 100%;
+    height: 800px;
+    background-image: url(dos.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 0;
+}
+
+.logo{
+    height: 80px;
+}
+
+.logo img{
+    height: 100%;
+}
+
+.navcontent{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.links a{
+    color: #2c3e50;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 300;
+    margin: 25px;
+}
+
+
+
+.sesgoabajo {
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 18vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 52px 0;
+}
+
+/* Main */
+
+.contenedor_about{
+    display: flex;
+    flex-direction: row;
+}
+.sobre-nosotros {
+    text-align: left;
+    font-size: 35px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+
+.parrafo {
+    margin-bottom: 13px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 24px;
+    color: rgb(24, 16, 16);
+}
+
+
+.BrandContainerImage{
+    vertical-align: top;
+    float: right;
+}
+
+.BrandContainerImage img
+{
+       width: 40em;
+}
+
+
+/* POR QUE ELEGIR */
+.elegir{
+    background: lightgray;
+    height: auto;
+}
+.por-que{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.parrafo{
+    margin-bottom: 13px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 24px;
+    color: rgb(24, 16, 16);
+}
+
+
+
+/* SECCION MISION */
+
+.contenedor_Mis{
+    display: flex;
+    flex-direction: row;
+}
+
+.sec_Mision{
+    background-color: black;
+    height: auto;
+}
+
+.Mision{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: gold;
+}
+
+.parrafo_Mis{
+    margin-bottom: 15px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 24px;
+    color: honeydew;
+}
+
+.ContImage{
+    vertical-align: top;
+    float: right;  
+}
+
+.ContImage img{
+    width: 30em;  
+}
+
+
+/* SECCION VISION */
+
+.contenedor_Vis{
+    display: flex;
+    flex-direction: row;
+}
+
+.sec_Vision{
+    background-color: rgba(37, 37, 33, .7);
+    height: auto;
+}
+
+.Vision{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: gold;
+}
+
+.parrafo_Vis{
+    margin-bottom: 15px;
+    font-weight: 300;
+    text-align: right;
+    line-height: 24px;
+    color: honeydew;
+}
+
+.ContImageVi{
+    vertical-align: top;
+    float: left;  
+}
+
+.ContImageVi img{
+    width: 30em;  
+}
+
+/* Footer */
+
+footer {
+    background: #2c3e50;
+    height: auto;
+}
+
+.titulo-footer,
+.subtitulo-footer {
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 56px;
+}
+
+.subtitulo-footer {
+    font-size: 16px;
+    margin-bottom: 64px;
+}
+
+form {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+input[type="text"],
+input[type="email"] {
+    display: inline-block;
+    width: 48%;
+    padding: 13px;
+    border: none;
+    color: #fff;
+    font-family: 'open sans';
+    background: rgba(37, 37, 33, .7);
+    margin-bottom: 16px;
+    border-top: 5px solid rgba(37, 37, 33, .7);
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-top: 5px solid rgba(255, 255, 255, 0.7);
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 200px;
+    min-height: 200px;
+    background: rgba(37, 37, 33, .7);
+    padding: 13px;
+    border: none;
+    color: #fff;
+    font-family: 'open sans';
+    margin-bottom: 16px;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    padding: 13px;
+    border: none;
+    color: #fff;
+    background: rgba(37, 37, 33, .7);
+    width: 96px;
+}
+
+/* Responsive */
+
+@media screen and (max-width:900px) {
+    .card {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:610px) {
+    header .textos {
+        margin-top: 130px;
+    }
+    header .titulo {
+        font-size: 75px;
+    }
+    .none {
+        display: none
+    }
+    .imagenes {
+        flex-grow: 1;
+    }
+    .card {
+        width: 90%;
+    }
+    .fondo {
+        height: auto;
+    }
+    .especial {
+        display: none;
+    }
+    .cliente {
+        width: 90%;
+        height: 200px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:380px) {
+    header .textos {
+        margin-top: 100px;
+    }
+    header .titulo {
+        font-size: 65px;
+    }
+    header .subtitulo {
+        font-size: 25px;
+        margin-bottom: 32px;
+    }
+    .sobre-nosotros {
+        font-size: 46px;
+    }
+    .slogan {
+        font-size: 20px;
+    }
+    .titulo-patrocinadores {
+        font-size: 46px;
+    }
+    .subtitulo-patrocinadores {
+        font-size: 20px;
+    }
+}
