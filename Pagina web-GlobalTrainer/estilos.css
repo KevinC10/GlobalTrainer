@@ -77,6 +77,12 @@ nav{
     display: flex;
     flex-direction: row;
 }
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .sobre-nosotros {
     text-align: left;
     font-size: 35px;
@@ -122,7 +128,7 @@ nav{
     font-weight: 300;
     text-align: left;
     line-height: 24px;
-    color: rgb(24, 16, 16);
+    color: rgb(32, 26, 26);
 }
 
 
@@ -202,10 +208,67 @@ nav{
     width: 30em;  
 }
 
+/* Contactanos */
+
+.Contacto{
+    background: #181717;
+    height: auto;
+}
+.text{
+    text-align: center;
+    text-align: left;
+    color: #fff ;
+    padding-top: 10%;
+
+}
+
+.text h2{
+    text-align: center;
+    text-align: left;
+    margin-bottom: 40px;
+    line-height: 24px;
+    font-size: 35px;
+
+}
+
+.text h3{
+    text-align: center;
+    text-align: left;
+    margin-bottom: 20px;
+    line-height: 24px;
+    font-size: 20px;
+
+}
+
+.text p{
+    text-align: center;
+    text-align: left;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.maps{
+    vertical-align: top;
+    float: right;
+}
+
+.section-page { 
+    padding: 48px 0;
+}
+
+.icon-style {
+    margin-right: 18px;
+    width: 24px;
+    height: 24px;
+    color: #fff;
+}
+
+
+
 /* Footer */
 
 footer {
-    background: #2c3e50;
+    background: #fff;
     height: auto;
 }
 
